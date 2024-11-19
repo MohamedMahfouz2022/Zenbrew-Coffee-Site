@@ -11,7 +11,7 @@ const Hero = () => {
       </div>
       {/* video */}
       <video autoPlay loop muted className="absolute top-0 left-0 w-full h-full object-cover">
-        {/* <source src="/assets/hero/video.mp4" type="video/mp4" /> */}
+        <source src="/assets/hero/video.mp4" type="video/mp4" />
         Your browser dose not support the video tag.
       </video>
       <div className="container mx-auto h-full flex flex-col xl:flex-row items-center z-30 relative">
